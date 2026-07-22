@@ -15,8 +15,9 @@ economy. The agent operates — you govern.
 ### Repositories
 
 - [**opero**](https://github.com/projectopero/opero) — platform runtime (policy, catalog, receipts, agent commerce) and the operator workspace.
+- [**opero-engine**](https://github.com/projectopero/opero-engine) — the flagship decision engine (Rust) and cross-venue basis scanner.
 
-_More landing soon: decision engine, contracts, SDK._
+_More landing soon: contracts, SDK._
 
 ---
 
