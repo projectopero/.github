@@ -1,0 +1,27 @@
+name: Organization proposal
+description: Propose a change that affects multiple Opero repositories.
+title: "[proposal] "
+labels:
+  - proposal
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What organization-wide problem needs to be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the intended policy, template or profile change.
+    validations:
+      required: true
+  - type: textarea
+    id: repositories
+    attributes:
+      label: Affected repositories
+      description: List the repositories and compatibility implications.
+    validations:
+      required: true

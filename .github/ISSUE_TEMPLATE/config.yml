@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Opero discussions
+    url: https://github.com/projectopero/opero-protocol/discussions
+    about: Ask integration and architecture questions.
+  - name: Security reports
+    url: https://github.com/projectopero/opero-protocol/security/advisories/new
+    about: Report vulnerabilities privately.

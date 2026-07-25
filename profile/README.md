@@ -1,24 +1,52 @@
-# Project Opero
+<p align="center">
+  <img width="1500" height="500" alt="Opero" src="https://raw.githubusercontent.com/projectopero/.github/main/profile/assets/opero-banner.jpeg" />
+</p>
 
-**Autonomy you can read.**
+<p align="center">
+  Infrastructure for governed, autonomous trading.
+</p>
 
-An agentic trading platform with a built-in flagship agent, a marketplace for
-versioned trading intelligence, brokerage execution, and a single-token
-economy. The agent operates — you govern.
+Opero runs autonomous strategies under an explicit safety envelope: every order
+passes schema validation, policy limits, an intent-bound approval, and
+reconciliation before it counts as done. Strategies earn capital only by
+clearing a statistical evidence bar, and each run emits a signed, verifiable
+receipt.
 
-### Principles
+## Projects
 
-- **Light surfaces, heavy guarantees** — calm interfaces over deterministic controls.
-- **Every action has a word** — agent · policy · intent · approve · reconcile.
-- **Nothing moves money silently** — typed policy, bound approvals, reconciled receipts.
+| Project | Purpose |
+| --- | --- |
+| [`opero-protocol`](https://github.com/projectopero/opero-protocol) | Signed order intents, shared wire types and the public receipt specification |
+| [`opero-contracts`](https://github.com/projectopero/opero-contracts) | On-chain receipt anchoring and settlement contracts |
 
-### Repositories
+The trading runtime, strategy marketplace and flagship decision engine are
+maintained as proprietary components.
 
-- [**opero**](https://github.com/projectopero/opero) — platform runtime (policy, catalog, receipts, agent commerce) and the operator workspace.
-- [**opero-engine**](https://github.com/projectopero/opero-engine) — the flagship decision engine (Rust) and cross-venue basis scanner.
+```mermaid
+flowchart LR
+    agent["Agent or operator"] --> platform["Opero platform"]
+    platform --> policy["Policy and approval"]
+    policy --> venue["Exchange venue"]
+    venue --> reconcile["Reconcile and receipt"]
+    reconcile --> anchor["On-chain anchor"]
+```
 
-_More landing soon: contracts, SDK._
+## Current status
 
----
+Opero is pre-production. The governed execution path is implemented and tested
+end to end, with live-venue execution verified, but public trading remains
+gated on the promotion evidence bar, a funded canary soak, monitoring and
+independent review.
 
-projectopero.com
+Autonomous trading carries risk of loss. Nothing here is investment advice, and
+strategies act only within their configured limits.
+
+## Participate
+
+- Read the [protocol specification](https://github.com/projectopero/opero-protocol).
+- Review the [contracts](https://github.com/projectopero/opero-contracts).
+- Open focused issues and proposals in the relevant repository.
+- Report vulnerabilities through the affected repository's private
+  vulnerability-reporting channel.
+
+Website: [projectopero.com](https://projectopero.com)

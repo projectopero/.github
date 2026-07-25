@@ -1,0 +1,30 @@
+name: Documentation or template defect
+description: Report a reproducible problem with the organization profile or defaults.
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Do not report vulnerabilities or include credentials in a public issue.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is incorrect or broken?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Reproduction or evidence
+      description: Include sanitized links or screenshots when useful.
+    validations:
+      required: true
