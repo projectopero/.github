@@ -3,14 +3,14 @@
 </p>
 
 <p align="center">
-  Infrastructure for governed, autonomous trading.
+  Market-neutral execution, engineered for control.
 </p>
 
-Opero runs autonomous strategies under an explicit safety envelope: every order
-passes schema validation, policy limits, an intent-bound approval, and
-reconciliation before it counts as done. Strategies earn capital only by
-clearing a statistical evidence bar, and each run emits a signed, verifiable
-receipt.
+Opero AI prices basis and funding across every tokenized equity market with both
+legs live, and commits capital only where the spread survives fees, financing,
+and slippage. Every order passes schema validation, policy limits, an
+intent-bound approval, and reconciliation before it counts as done. Each run
+emits a signed, verifiable receipt, including the evaluations it declines.
 
 ## Projects
 
