@@ -9,7 +9,7 @@ required=(
   SECURITY.md
   SUPPORT.md
   profile/README.md
-  profile/assets/opero-banner.jpeg
+  profile/assets/opero-banner.png
 )
 
 for path in "${required[@]}"; do

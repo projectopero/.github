@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1280" height="426" alt="Opero AI — paired execution, controlled at every step" src="https://raw.githubusercontent.com/projectopero/.github/main/profile/assets/opero-banner.jpeg" />
+  <img width="1500" height="500" alt="Opero AI — paired execution, controlled at every step" src="https://raw.githubusercontent.com/projectopero/.github/main/profile/assets/opero-banner.png" />
 </p>
 
 <p align="center">
