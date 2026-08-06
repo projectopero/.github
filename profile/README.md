@@ -39,14 +39,13 @@ flowchart LR
 
 ## Availability
 
-Account registration is open. Live trading and simulated trading run side by
-side: a simulated strategy evaluates live market data and commits no capital,
-and both may run in the same account at once. Simulated results are labelled as
-such wherever they appear and are never combined with realised performance.
+Account registration is open. Strategies can be evaluated against live market
+data before any capital is committed, and evaluation and trading can run in the
+same account at once.
 
-Automated trading carries risk of loss. Past or simulated performance does not
-indicate future results. Nothing here is investment advice, and strategies act
-only within their configured limits.
+Automated trading carries risk of loss. Past performance does not indicate
+future results. Nothing here is investment advice, and strategies act only
+within their configured limits.
 
 ## Participate
 
