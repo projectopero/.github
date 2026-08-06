@@ -1,4 +1,4 @@
-# Project Opero organization configuration
+# Opero AI organization configuration
 
 This repository publishes the Opero organization profile and provides default
 community-health files for repositories that do not define their own.
